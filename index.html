@@ -1,11 +1,155 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Human–AI Coevolution — PhD Course</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Human–AI Coevolution — Course Page</title>
+  <meta name="description" content="Course page: Understanding human–AI coevolution and its societal impact." />
+  <style>
+    :root { --max: 980px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; margin: 0; color: #111; background: #fff; }
+    header { border-bottom: 1px solid #eaeaea; background: #fafafa; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 28px 18px; }
+    h1 { margin: 0 0 6px; font-size: 2.0rem; }
+    .subtitle { margin: 0; color: #444; }
+    main h2 { margin-top: 34px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+    @media (min-width: 860px) { .grid { grid-template-columns: 1fr 1fr; } }
+    .card { border: 1px solid #eaeaea; border-radius: 14px; padding: 16px 16px; background: #fff; }
+    .meta dt { font-weight: 650; }
+    .meta dd { margin: 0 0 10px; color: #222; }
+    .badge { display: inline-block; padding: 3px 10px; border: 1px solid #e6e6e6; border-radius: 999px; background: #fff; margin-right: 6px; margin-top: 6px; font-size: .92rem; }
+    a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    ol, ul { padding-left: 20px; }
+    footer { border-top: 1px solid #eaeaea; margin-top: 40px; color: #555; }
+    .small { font-size: .95rem; color: #444; }
+  </style>
 </head>
+
 <body>
-  <h1>Human–AI Coevolution</h1>
-  <p>Course page for the Italian National PhD in AI.</p>
+  <header>
+    <div class="wrap">
+      <h1>Human–AI Coevolution</h1>
+      <p class="subtitle">Understanding human–AI coevolution and its impact on society</p>
+      <div>
+        <span class="badge">Italian National PhD in AI</span>
+        <span class="badge">Spring Semester</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+      <div class="card">
+        <h2 style="margin-top:0;">Instructor</h2>
+        <dl class="meta">
+          <dt>Name</dt>
+          <dd>Luca Pappalardo</dd>
+          <dt>Affiliations</dt>
+          <dd>Senior Researcher at ISTI-CNR; Associate Professor at Scuola Normale Superiore of Pisa (Italy)</dd>
+          <dt>Topics</dt>
+          <dd>Human–AI Coevolution, Big Data Analytics, Data Science</dd>
+        </dl>
+      </div>
+
+      <div class="card">
+        <h2 style="margin-top:0;">Course snapshot</h2>
+        <dl class="meta">
+          <dt>Pre-requisites</dt>
+          <dd>
+            <ul>
+              <li>Principles of Data Analysis (e.g., statistical distributions)</li>
+              <li>Principles of Machine Learning (e.g., regression/classification tasks)</li>
+            </ul>
+          </dd>
+          <dt>Materials & platform</dt>
+          <dd>Slides and papers (shared via Google Drive)</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section>
+      <h2>Course description</h2>
+      <p>
+        The rise of socio-technical systems, where humans interact with AI assistants and recommenders,
+        poses risks of unintended consequences. Navigation apps like Google Maps may cause congestion by
+        directing too many drivers to the same route; profiling and targeted ads can reinforce biases and
+        inequality; and generative AI chatbots risk declining quality as synthetic data increasingly drives
+        retraining. These issues stem from Machine Learning models trained on human behaviour, creating
+        feedback loops that shape future choices and data. This course equips students to analyse and model
+        these loops, designing experiments to assess their societal impact and foster responsible AI development.
+      </p>
+    </section>
+
+    <section>
+      <h2>Expected skills (learning outcomes)</h2>
+      <ul>
+        <li>Design experiments to assess the impact of AI algorithms in human–AI ecosystems.</li>
+        <li>Measure and interpret the impact of AI algorithms on individuals and society.</li>
+        <li>Model feedback loops between humans and AI algorithms.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Assessment</h2>
+      <p>
+        Students will submit a document describing experiments (empirical or simulations) to assess AI impact
+        in ecosystems like social media, retail, and urban mapping. The document must outline:
+      </p>
+      <ol>
+        <li>Which aspects of impact are measured;</li>
+        <li>How the experiment(s) are designed;</li>
+        <li>Key findings from existing literature relevant to the chosen ecosystem and impact dimension.</li>
+      </ol>
+      <p>The document will be presented by the student during an oral presentation.</p>
+    </section>
+
+    <section>
+      <h2>Required readings</h2>
+      <ol>
+        <li>
+          Pedreschi et al., <em>Human-AI Coevolution</em>, Artificial Intelligence, Volume 339, February 2025, 104244.
+          <a href="https://doi.org/10.1016/j.artint.2024.104244">DOI</a>
+        </li>
+        <li>
+          Pappalardo et al., <em>A survey on the impact of AI-based recommenders on human behaviours: methodologies, outcomes and future directions</em>,
+          arXiv:2407.01630.
+          <a href="https://www.arxiv.org/abs/2407.01630">arXiv</a>
+        </li>
+        <li>
+          Huszár et al., <em>Algorithmic amplification of politics on Twitter</em>, PNAS 119(1) e2025334119 (2021).
+          <a href="https://doi.org/10.1073/pnas.2025334119">DOI</a>
+        </li>
+        <li>
+          Cornacchia et al., <em>How routing strategies impact urban emissions</em>, SIGSPATIAL ’22, Article 42, pp. 1–4 (2022).
+          <a href="https://doi.org/10.1145/3557915.3560977">DOI</a>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Course syllabus (sessions)</h2>
+      <ol>
+        <li><strong>Introduction to Human–AI Coevolution.</strong> Overview of the course topic, delivered as a lecture with interactive discussions.</li>
+        <li><strong>The Human–AI Feedback Loop.</strong> Exploration and formalisation of feedback loops in ML models, with examples from social media, online retail, urban mapping, and chatbots.</li>
+        <li><strong>Types of Experiments.</strong> Overview of experimental methods to evaluate feedback-loop impacts, illustrated with examples from diverse human–AI ecosystems.</li>
+        <li><strong>(Session 4)</strong> <em>To be defined.</em> (Your template jumps from Session 3 to Session 5 — add Session 4 here if needed.)</li>
+        <li><strong>Unintended Consequences in Social Media.</strong> Case studies on platforms like Facebook, Twitter, and YouTube.</li>
+        <li><strong>Unintended Consequences in Online Retail.</strong> Real-world examples on platforms like Amazon and Spotify.</li>
+        <li><strong>Unintended Consequences in Urban Mapping.</strong> Effects on platforms such as Google Maps and Airbnb.</li>
+        <li><strong>Unintended Consequences in Chatbots.</strong> Challenges posed by AI-generated chatbots like LLaMA and ChatGPT.</li>
+        <li><strong>Open Challenges in Human–AI Coevolution.</strong> Unresolved technical, legal, and political issues in measuring human–AI coevolution.</li>
+        <li><strong>Practice Session.</strong> Hands-on activity: designing experiments to assess impacts of AI recommenders (exam preparation).</li>
+        <li><strong>Exam / Presentations (I).</strong> Student presentations and evaluation.</li>
+        <li><strong>Exam / Presentations (II).</strong> Student presentations and evaluation.</li>
+      </ol>
+    </section>
+
+    <footer class="wrap">
+      <p class="small">
+        This page is based on the course syllabus template content you provided. :contentReference[oaicite:1]{index=1}
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
