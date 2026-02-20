@@ -21,6 +21,37 @@
     .small { font-size: .95rem; color: #444; }
     footer { border-top: 1px solid #eaeaea; margin-top: 40px; color: #555; }
     ol, ul { padding-left: 20px; }
+
+    table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+th, td {
+  border: 1px solid #eaeaea;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  th {
+    display: none;
+  }
+  td {
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+  }
+}
+
   </style>
 </head>
 
@@ -36,6 +67,71 @@
     </div>
   </header>
 
+<section>
+  <h2>Calendar of Lessons</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Lesson</th>
+        <th>Date</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lesson 1</td>
+        <td>Wednesday, April 8</td>
+        <td>09:00–11:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 2</td>
+        <td>Thursday, April 9</td>
+        <td>09:00–11:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 3</td>
+        <td>Friday, April 10</td>
+        <td>09:00–11:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 4</td>
+        <td>Monday, April 13</td>
+        <td>09:00–11:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 5</td>
+        <td>Wednesday, April 15</td>
+        <td>09:00–11:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 6</td>
+        <td>Thursday, April 16</td>
+        <td>09:00–11:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 7</td>
+        <td>Friday, April 17</td>
+        <td>10:00–12:00</td>
+      </tr>
+      <tr>
+        <td>Lesson 8</td>
+        <td>TBD</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td>Lesson 9</td>
+        <td>TBD</td>
+        <td>TBD</td>
+      </tr>
+      <tr>
+        <td><strong>Exam</strong></td>
+        <td>TBD</td>
+        <td>TBD</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+  
   <main class="wrap">
 
 <section class="card" style="margin-bottom:20px;">
